@@ -1,4 +1,14 @@
-# iOS Feature Management
+# relux-feature-management
+
+Relux module for feature flags — define, toggle, and compose feature expressions with Keychain persistence.
+
+### Installation (Swift Package Manager)
+```swift
+.package(url: "https://github.com/relux-works/relux-feature-management.git", from: "1.0.0")
+```
+```swift
+.product(name: "ReluxFeatureManagement", package: "relux-feature-management")
+```
 
 ## Adding Dependency to the Project
 
