@@ -1,6 +1,6 @@
 # relux-feature-management
 
-Relux module for feature flags — define, toggle, and compose feature expressions with Keychain persistence.
+Relux module for feature flags: define, toggle, and compose feature expressions with Keychain persistence.
 
 ### Installation (Swift Package Manager)
 ```swift
@@ -118,6 +118,16 @@ Group {
     ])
 )
 ```
+
+## The Relux stack
+
+This package is part of the Relux stack: the
+[Relux](https://github.com/relux-works/swift-relux) unidirectional data-flow
+architecture for Swift 6, a family of modules around it, and agent-ready testing
+tools. The stack is how we build MVPs fast on agentic rails and then scale them into
+enterprise-grade apps: Tuist workspaces, strict modularization, and a UDF architecture
+proven in production for years. Browse the full picture in the
+[Relux Works open-source catalog](https://relux.works/en/open-source/).
 
 <!-- relux-ecosystem:start -->
 
