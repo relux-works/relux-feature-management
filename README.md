@@ -4,7 +4,7 @@ Relux module for feature flags: define, toggle, and compose feature expressions 
 
 ### Installation (Swift Package Manager)
 ```swift
-.package(url: "https://github.com/relux-works/relux-feature-management.git", from: "1.0.0")
+.package(url: "https://github.com/relux-works/relux-feature-management.git", from: "7.0.2")
 ```
 ```swift
 .product(name: "ReluxFeatureManagement", package: "relux-feature-management")
